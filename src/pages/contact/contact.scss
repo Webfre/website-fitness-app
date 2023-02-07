@@ -1,0 +1,42 @@
+.contact__container {
+    display: grid;
+    place-items: center;
+}
+
+.contact__wrapper {
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+
+    & a {
+        display: flex;
+        justify-content: center;
+        background: var(--color-primary);
+        font-size: 2.2rem;
+        border: 2px solid transparent;
+        padding: 2rem;
+        border-radius: 1.5rem;
+        transition: var(--transition);
+        
+        &:hover {
+            background: transparent;
+            border-color: var(--color-gray-100);
+        }
+    }
+}
+
+/* ================ MEDIA QUERIES 1024px ================= */
+
+@media screen and (max-width: 1024px) {
+    .contact__wrapper {
+        gap: 1.5rem;
+
+        & a {
+            padding: 1rem;
+            font-size: 1.5rem;
+            border-radius: 1rem;
+        }
+    }
+}
+
+
