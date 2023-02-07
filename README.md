@@ -11,7 +11,7 @@ Website Fitness - website for fitness training and gym appointments, a selection
 
 ## Preview
 
-<a href="https://webfre.github.io/travel-tour/" target="_blank">Follow the link 👁</a>
+<a href="https://webfre.github.io/website-fitness-app/" target="_blank">Follow the link 👁</a>
 
 ## Tech
 
