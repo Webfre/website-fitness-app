@@ -40,6 +40,7 @@ git clone https://github.com/Webfre/website-fitness-app.git
 Start the project:
 
 ```sh
+npm install
 cd website-app
 npm start or yarn start
 ```
